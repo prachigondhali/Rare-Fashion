@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.prachi{
+text-decoration:none;
+position:absolute;
+top:10px;
+left:150px;
+color:blue;
+}
+
+.prachi1
+{
+text-decoration:none;
+position:absolute;
+top:10px;
+left:150px;
+color:red;
+}
+
+img{
+border:2px solid black;
+position:absolute;
+top:10px;
+left:10px;
+width:150px;
+height:150px;
+}
+div
+{
+position:relative;
+top:20px;
+left:309px;
+color:red;
+}
+
+.wishlist
+{
+position:absolute;
+top:0px;
+left:300px;
+font-size:60px;
+text-decoration:none;
+color:black;
+}
+
+</style>
+</head>
+
+
+<script>
+function Click()
+{
+var x = document.getElementById("myDIV");
+var y = document.getElementById("like");
+	if(x.innerHTML === "0")
+	{
+		x.innerHTML = "1";
+		y.classList.toggle("prachi1");
+	}
+	else
+	{
+		x.innerHTML = "0";
+		y.classList.toggle("prachi1");
+	}
+	
+}
+</script>
+
+
+<body>
+<img src="C:/Users/A661143/Desktop/Documents/html/RARE Fashion/Images/ruffles/ruffles-01.png"/>
+<p><a id="like" href="#" class="prachi" onclick="Click()">&hearts;</a></p>
+<a id="wishlist" href="#" class="wishlist">&#x2661;</a> 
+<div id="myDIV">0</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<html>
+<head>
+<script>
+var Clicks = 0 ;
+function AddClick(){
+Clicks = Clicks + 1;
+document.getElementById('CountedClicks').innerHTML = Clicks + ' Hits';
+}
+</script>
+</head>
+
+<body>
+<span id="CountedClicks">0 Hits</span><br>
+<button style="background-color:green" onclick="AddClick()">Count Your Hit</button>
+</body>
+
+</html>

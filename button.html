@@ -1,0 +1,91 @@
+<html>
+<head>
+<style>
+.prachi{
+text-decoration:none;
+position:absolute;
+top:10px;
+left:150px;
+color:blue;
+}
+
+.prachi1
+{
+text-decoration:none;
+position:absolute;
+top:10px;
+left:150px;
+color:red;
+}
+
+img{
+border:2px solid black;
+position:absolute;
+top:10px;
+left:10px;
+width:150px;
+height:150px;
+}
+p
+{
+position:relative;
+top:0px;
+left:300px;
+}
+
+</style>
+
+<script>
+function AddClick()
+{
+	if(document.getElementById('CountedClicks').innerHTML == "0 Hits")
+	{
+		document.getElementById('CountedClicks').innerHTML.toggle("1 Hits");
+	}
+	else
+	{
+		
+		document.getElementById('CountedClicks').innerHTML.toggle("0 Hits");
+	}
+	
+}
+</script>
+<!--
+<script>
+var c=0;
+function AddClick(x)
+{
+	if(document.getElementById("like").classList.contains('prachi'))
+	{
+		x.classList.toggle("prachi1");
+		c = c + 1;
+		if(c/2 == 0)
+		{
+			x.classList.toggle("prachi");
+			SubtractClick(c);
+			document.getElementById('CountedClicks').innerHTML = c + ' Hits';
+		}
+		else
+		{
+			document.getElementById('CountedClicks').innerHTML = c + ' Hits';
+			c = c - 1;
+		}
+	}
+}
+
+function Subtractclick(c)
+{
+	c = c-1;
+	return c;
+}
+</script>
+-->
+
+</head>
+
+<body>
+	<img src="C:/Users/A661143/Desktop/Documents/html/RARE Fashion/Images/ruffles/ruffles-01.png"/>
+	<p id="CountedClicks">0 Hits</p>
+	<a id="like" href="#" class="prachi" onclick="Click()">&hearts;</a>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.ruffles
+{
+	position:relative;
+	top:15px;
+	margin-left:20px;
+	margin-top:20px;
+	margin-right:20px;
+	width:225px;
+	border:2px solid;
+	border-color:black;
+}
+
+.rf1{
+text-decoration:none;
+position:relative;
+top:0px;
+left:0px;
+color:DeepPink;
+margin-left:20px;
+}
+
+.rf2
+{
+text-decoration:none;
+position:relative;
+top:0px;
+left:0px;
+color:DeepPink;
+}
+
+.atc
+{
+color:deeppink;
+text-decoration:none;	
+}	
+
+.ws-count-item-in-cart
+{
+	color:white;
+	position:absolute;
+	font-size:15px;
+	top:16px;
+	right:15px;
+	border:2px solid red;
+	width:15px;
+	border-radius:50%;
+	background-color:red;
+	text-align:center;
+}
+
+.atc1
+{
+color:deeppink;
+text-decoration:none;
+}
